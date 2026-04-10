@@ -19,9 +19,9 @@ Supabase — single table: `links`
 - [ ] DELETE /links/{id}            → delete a link
 
 ## Sprint Checklist
-- [ ] Sprint 0 — Foundation & repo
-- [ ] Sprint 1 — FastAPI skeleton running
-- [ ] Sprint 2 — Supabase connected
+- [x] Sprint 0 — Foundation & repo
+- [x] Sprint 1 — FastAPI skeleton running
+- [x] Sprint 2 — Supabase connected
 - [ ] Sprint 3 — Metadata fetcher working
 - [ ] Sprint 4 — Gemini AI integration
 - [ ] Sprint 5 — Preview endpoint
@@ -38,4 +38,4 @@ Supabase — single table: `links`
 - Skipping Pydantic models for any endpoint
 
 ## Current Sprint
-Sprint 0
+Sprint 3

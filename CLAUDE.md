@@ -38,3 +38,8 @@ and suggests tags using Google Gemini API.
 
 ## Current Version
 V1 — solo use, no auth, core endpoints only
+
+## Sprint Workflow
+- After every sprint completes, check DIRECTION.md
+- Update sprint checklist (mark done) and current sprint
+- Ask the user before making any changes
