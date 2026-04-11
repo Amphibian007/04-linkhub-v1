@@ -14,8 +14,4 @@ async def health_check():
     return {"status": "ok", "message": "LinkHub API is running"}
 
 
-@app.get("/test-db", tags=["Health"])
-async def test_db():
-    """Tests the Supabase connection by fetching rows from the links table."""
-    response = supabase.table("links").select("*").execute()
-    return {"status": "ok", "rows": response.data}
+
