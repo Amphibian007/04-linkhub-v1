@@ -31,6 +31,9 @@ Supabase — single table: `links`
 - [ ] Sprint 9 — Delete + polish
 - [ ] Sprint 10 — V1 sign-off
 
+## V2 Considerations
+- TikTok platform support (metadata + thumbnail fetching)
+
 ## Red Flags (Stop and Check If You See These)
 - Adding auth before V1 is complete
 - Building frontend before all endpoints work
