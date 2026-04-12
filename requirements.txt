@@ -5,4 +5,4 @@ beautifulsoup4
 yt-dlp
 python-dotenv
 supabase
-google-generativeai
+google-genai

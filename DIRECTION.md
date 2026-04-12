@@ -22,7 +22,7 @@ Supabase — single table: `links`
 - [x] Sprint 0 — Foundation & repo
 - [x] Sprint 1 — FastAPI skeleton running
 - [x] Sprint 2 — Supabase connected
-- [ ] Sprint 3 — Metadata fetcher working
+- [x] Sprint 3 — Metadata fetcher working
 - [ ] Sprint 4 — Gemini AI integration
 - [ ] Sprint 5 — Preview endpoint
 - [ ] Sprint 6 — Save endpoint
@@ -41,4 +41,4 @@ Supabase — single table: `links`
 - Skipping Pydantic models for any endpoint
 
 ## Current Sprint
-Sprint 3
+Sprint 4

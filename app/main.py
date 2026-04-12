@@ -13,11 +13,16 @@ app = FastAPI(
 async def health_check():
     """Returns server status. Used to confirm the API is running."""
     return {"status": "ok", "message": "LinkHub API is running"}
-@app.get("/test-metadata", tags=["Health"])
-async def test_metadata(url: str):
-    """Temporary endpoint to test metadata fetching."""
-    result = await fetch_metadata(url)
+
+from app.services.gemini import generate_ai_content
+
+@app.get("/test-gemini", tags=["Health"])
+async def test_gemini():
+    """Temporary test endpoint for Gemini AI service."""
+    result = await generate_ai_content(
+        title="Async Python Tutorial for Beginners",
+        description="Learn how to use async and await in Python with real examples.",
+        platform="youtube"
+    )
     return result
-
-
 

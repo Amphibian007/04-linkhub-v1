@@ -28,7 +28,7 @@ Reply with valid JSON only. No explanation. No markdown. Example format:
 """
 
     response = client.models.generate_content(
-        model="gemini-2.5-flash-preview-04-17",
+        model="gemini-2.5-flash",
         contents=prompt
     )
     text = response.text.strip()
