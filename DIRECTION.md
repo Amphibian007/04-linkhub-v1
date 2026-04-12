@@ -11,7 +11,7 @@ YouTube, Facebook, GitHub, Google Drive, Google Docs, Google Sheets
 Supabase — single table: `links`
 
 ## The 6 Endpoints
-- [ ] POST   /links/preview         → fetch metadata + AI tags
+- [x] POST   /links/preview         → fetch metadata + AI tags
 - [ ] POST   /links                 → save confirmed link
 - [ ] GET    /links                 → get all links
 - [ ] GET    /links/search          → search + filter by tag/platform
@@ -23,8 +23,8 @@ Supabase — single table: `links`
 - [x] Sprint 1 — FastAPI skeleton running
 - [x] Sprint 2 — Supabase connected
 - [x] Sprint 3 — Metadata fetcher working
-- [ ] Sprint 4 — Gemini AI integration
-- [ ] Sprint 5 — Preview endpoint
+- [x] Sprint 4 — Gemini AI integration
+- [x] Sprint 5 — Preview endpoint
 - [ ] Sprint 6 — Save endpoint
 - [ ] Sprint 7 — Duplicate detection
 - [ ] Sprint 8 — Browse + search
@@ -41,4 +41,4 @@ Supabase — single table: `links`
 - Skipping Pydantic models for any endpoint
 
 ## Current Sprint
-Sprint 4
+Sprint 6
